@@ -26,5 +26,15 @@ class ViewController: UIViewController {
     func check() -> Bool {
         return Bool.random()
     }
+  
+    func signIn() -> Bool{
+        if Int.random(in: 1...7) == 4{
+            return true
+        }
+        else{
+            return false
+        }
+
+    }
 }
 
