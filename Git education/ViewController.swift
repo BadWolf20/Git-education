@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    func someMethod() -> Bool{
-        return false
+    func setupView(){
+        view.backgroundColor = .systemBlue
     }
 
 
