@@ -23,8 +23,13 @@ class ViewController: UIViewController {
         view.addSubview(newView)
     }
 
-    func signIn() -> Int{
-        return 666
+    func signIn() -> Bool{
+        if Int.random(in: 1...7) == 4{
+            return true
+        }
+        else{
+            return false
+        }
     }
 }
 
