@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         view.addSubview(newView)
     }
 
+    func check() -> Bool {
+        return Bool.random()
+    }
+  
     func signIn() -> Bool{
         if Int.random(in: 1...7) == 4{
             return true
@@ -30,6 +34,7 @@ class ViewController: UIViewController {
         else{
             return false
         }
+
     }
 }
 
