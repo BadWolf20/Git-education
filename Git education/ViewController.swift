@@ -22,5 +22,9 @@ class ViewController: UIViewController {
         let newView = UIView()
         view.addSubview(newView)
     }
+
+    func signIn() -> Int{
+        return 666
+    }
 }
 
